@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        /* Estilos básicos para o layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Estilos para o conteúdo do portfólio */
+        .portfolio-item {
+            background-color: #fff;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .portfolio-item h3 {
+            margin-top: 0;
+        }
+
+        .portfolio-item p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Coloque aqui informações sobre você e suas habilidades.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-item">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+        </div>
+        <!-- Adicione mais itens de portfólio conforme necessário -->
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do e-mail: exemplo@email.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
